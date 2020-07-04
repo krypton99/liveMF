@@ -1,0 +1,231 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>Home - Brand</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/themes/dark.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--  Flatpickr  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-dark d-xl-flex justify-content-xl-start clean-navbar"
+    style="color: rgb(236,240,245);">
+    <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span
+          class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+      <a class="navbar-brand logo" href="#"
+        style="filter: brightness(181%);color: rgba(255, 122, 14, 0.87);font-size: 24px;"><strong>LiveMF</strong></a>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" role="presentation"><a class="nav-link d-xl-flex active" href="index.html"
+              style="color: rgb(255,255,255);">TRANG CHỦ</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="features.html"
+              style="color: rgb(255,255,255);">TRUYỀN HÌNH</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="pricing.html"
+              style="color: rgb(255,255,255);">PHIM</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html"
+              style="color: rgb(255,255,255);">MỚI NHẤT</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html"
+              style="color: rgb(250,250,250);">KHÁC</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"
+              style="color: rgb(255,254,254);">DANH SÁCH</a></li>
+        </ul>
+      </div><i class="fa fa-search" style="width: 30px;font-size: 24px;margin: 5px;"></i><i class="fa fa-gift"
+        style="width: 30px;font-size: 24px;margin: 5px;"></i><i class="material-icons"
+        style="width: 30px;margin: 5px;"></i>
+      <div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#"
+          style="margin: 5px;">Profile </a>
+        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a
+            class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item"
+            role="presentation" href="#">Third Item</a></div>
+      </div>
+    </div>
+  </nav>
+  <main class="page landing-page">
+    <section id="intro" class="clean-block clean-hero" style="color: rgba(255,9,98,0.65);height: 400px;">
+      <div class="full-bg-img">
+      </div>
+      <div class="text-info">
+        <h2 style="color: #ffffff">Tạo buổi xem chung</h2>
+        <p style="color: #ffffff">Tạo buổi xem chung cùng bạn bè để thỏa sức tận hưởng phút giây giải trí ngọt ngào và
+          trọn vẹn.</p><button class="btn btn-outline-light btn-lg" type="button">Thêm nội dung vào danh sách
+          phát</button>
+      </div>
+    </section>
+    <section>
+    <h4 class="text-info" style="height: 47px;margin: 22px;padding-top: 10px;"><strong>Đặt giờ công chiếu</strong></h4>
+    <div id="container" class="container">
+      <div class="row">
+          <div class="col-sm-10 offset-sm-1 text-center">
+              <div class="info-form">
+                  <form action="" class="form-inline justify-content-center">
+                      <div class="form-group">
+                        <input name="time" mwlFlatpickr enableTime="false" placeholder="Chọn ngày">
+                      </div>
+                      <div class="form-group">
+                       
+                        <input type="text" dateFormat="H:i" id="timePicker" noCalendar="true" enableTime="true" mwlFlatpickr
+                          time_24hr="true" name="time" placeholder="Chọn thời gian">
+                      </div>
+                  </form>
+              </div>
+              <br>
+          </div>
+      </div>
+    </div>
+    </section>
+    <section class="clean-block about-us" style="height: 600px; padding-top: 50px;" >
+      <hr class="new1" >
+      <h4 class="text-info" style="height: 47px;margin: 22px;"><strong>Danh sách xem chung</strong></h4>
+      <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner row w-100 mx-auto">
+            <div class="carousel-item col-md-4 active">
+              <div class="card">
+                <img class="card-img-top img-fluid"
+                  src="https://images.hdqwalls.com/download/captain-america-civil-war-movie-poster-1920x1080.jpg"
+                  alt="Card image cap">
+
+              </div>
+            </div>
+            <div class="carousel-item col-md-4 active">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="https://cdn.wallpapersafari.com/32/87/p6Nafz.jpg"
+                  alt="Card image cap">
+
+              </div>
+            </div>
+            <div class="carousel-item col-md-4 active">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="http://placehold.it/800x600/3ed846/fff" alt="Card image cap">
+
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="http://placehold.it/800x600/42ebf4/fff" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card 4</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f49b41/fff" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card 5</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f4f141/fff" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card 6</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="http://placehold.it/800x600/8e41f4/fff" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card 7</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="highlight-phone" style="padding-top: 30px;">
+    <hr class="new1">
+    <div class="container" style="padding-top: 30px;">
+      
+      <div class="row">
+        <div class="col-md-8">
+          <div class="intro">
+            <h2>Mời mọi người tham gia qua code</h2>
+            <p>Mời bạn bè nhập code để truy cập vào buổi xem chung do bạn tạo ra </p><a class="btn btn-primary"
+              role="button" href="#">Tạo mã</a><input id="taoma" type="text" style="margin: 16px;" />
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="d-none d-md-block iphone-mockup"><img class="device" src="../../assets/images/iphone.svg" />
+            <div class="screen"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h5>Bắt đầu</h5>
+          <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Đăng kí</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h5>Về chúng tôi</h5>
+          <ul>
+            <li><a href="#">Thông tin doanh nghiệp</a></li>
+            <li><a href="#">Liên hệ với chúng tôi</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h5>Hỗ trợ</h5>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Trợ giúp</a></li>
+            <li><a href="#">Diễn đàn</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h5>Pháp lý</h5>
+          <ul>
+            <li><a href="#">Thông tin pháp lý</a></li>
+            <li><a href="#">Điều khoản sử dụng</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>© 2020 Copyright LiveMF</p>
+    </div>
+  </footer>
+</body>
+
+</html>
